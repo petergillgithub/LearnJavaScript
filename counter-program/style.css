@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.btns {
+  display: flex;
+  gap: 2rem;
+}
+#increase {
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: white 2px;
+  background-color: greenyellow;
+}
+#reset {
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: white 2px;
+  background-color: greenyellow;
+}
+#decrease {
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: white 2px;
+  background-color: greenyellow;
+}
