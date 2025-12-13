@@ -1,5 +1,3 @@
-//Temprature Conversion Program
-
 const textBox = document.getElementById("textBox");
 const toFahernheit = document.getElementById("toFahernheit");
 const toCelsius = document.getElementById("toCelsius");
@@ -14,8 +12,6 @@ function convert() {
   } else if (toCelsius.checked) {
     temp = Number(textBox.value);
     temp = (temp - 32) * (5 / 9);
-    result.textContent = temp.toFixed(1) + "°C";
-  } else {
-    result.textContent = "Please Select a unit";
+    result.textContent = temp.toFixed(2) + "°C";
   }
 }
