@@ -19,7 +19,7 @@ const person2 = {
     console.log(`Hello ${this.name}`); // person1.name
   },
   eat: function () {
-    console.log(`I like to eat ${this.favfood}`);
+    console.log(`I like to eats ${this.favfood}`);
   },
 };
 
